@@ -40,6 +40,6 @@ class HelloServletTest {
         writer.flush(); // important !
 
         // Vérifie si le contenu est celui attendu
-        assertTrue(stringWriter.toString().toLowerCase().contains("hello world"));
+        assertTrue(stringWriter.toString().contains("Hello World!"));
     }
 }
